@@ -176,6 +176,8 @@
 .spinner {
     display: none;
     position: fixed;
+    padding: 20px;
+    margin: 20px;
     top: 0;
     left: 0;
     width: 100%;
@@ -190,7 +192,7 @@
     </style>
     <script>
         document.querySelector("#myForm").addEventListener("submit", function(){
-        document.querySelector("#myForm").classList.add("blur");
+        // document.querySelector("#myForm").classList.add("blur");
         document.body.classList.add("loading");
         });
     </script>
