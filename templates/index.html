@@ -9,10 +9,10 @@
     <title>Car Prediction ML Project</title>
 </head>
 
-<body class="loading">
+<body class="loading spinner">
      <h1 style="padding-bottom:20px; color:orange;text-align:center;">Predictive analysis of Selling Cars</h1>
      <br>
-    <div style="color:blue; border:1px solid black; padding:10px; " class="spinner">
+    <div style="color:blue; border:1px solid black; padding:10px; " class="">
         <form action="{{ url_for('predict')}}" method="post" id="myform" class="">
            <div class="in">       
             <label>Buying Year from Showroom : </label>
@@ -176,8 +176,6 @@
 .spinner {
     display: none;
     position: fixed;
-    padding: 20px;
-    margin: 20px;
     top: 0;
     left: 0;
     width: 100%;
